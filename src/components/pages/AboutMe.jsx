@@ -8,8 +8,8 @@ export function AboutMe () {
             <div className="aboutMeContainer">
                 <div className="myPhotoDiv">
                     <div className="invisibleGridContainer">
-                        <img src="/src/assets/img/myPhoto.jpg" className="myPhoto" alt="maPhoto"/>
-                        <a href="/src/assets/dl/CV_Cordier_Benoit_Developpeur_Web.pdf" className="cvButton" target="_blank" rel="noopener noreferrer">Télécharger mon CV</a>
+                        <img src="/myPhoto.jpg" className="myPhoto" alt="maPhoto"/>
+                        <a href="/CV_Cordier_Benoit_Developpeur_Web.pdf" className="cvButton" target="_blank" rel="noopener noreferrer">Télécharger mon CV</a>
                     </div>
                 </div>
                 <p className="aboutMeContent">

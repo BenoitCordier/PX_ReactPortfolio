@@ -6,7 +6,7 @@ export function PageError() {
     return <>
         <div className="row">
             <Navbar />
-            <div className="col-8 container content">
+            <div className="col-8 container content me-5">
                 <h3 className="fs-5"><span className="functionText fs-6">function</span> Erreur<span className="accolade">{" {"}</span></h3>
                 <p>
                     L'erreur suivante est survenue :
