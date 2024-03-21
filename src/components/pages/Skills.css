@@ -1,0 +1,25 @@
+.skillsItem {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.skills i {
+    font-size: xx-large;
+    text-align: center;
+    place-self: center;
+}
+
+.skillRow {
+    margin-bottom: 3vh;
+}
+
+.gridGutter {
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    
+    .gridGutter {
+        display: block;
+    }
+}

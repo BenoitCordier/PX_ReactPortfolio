@@ -1,0 +1,37 @@
+.contactContent {
+    margin-left: 7vh;
+}
+.contactItem {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.contactContent i {
+    font-size: x-large;
+    text-align: center;
+    place-self: center;
+}
+
+.contactRow {
+    margin-bottom: 2vh;
+}
+
+.nonRsRow i {
+    margin-left: 1.5vh;
+}
+
+.rsItemContact i {
+    font-size: xx-large;
+}
+
+.rsItemContact i:hover {
+    color: var(--orange);
+}
+
+.rsDescription {
+    visibility: hidden;
+}
+
+.rsItemContact i:hover + .rsDescription {
+    visibility: visible;
+}

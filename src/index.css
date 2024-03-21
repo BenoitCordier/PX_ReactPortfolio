@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url('./assets/fonts/CascadiaCode.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CascadiaCodeItalic';
+  src: url('./assets/fonts/CascadiaCodeItalic.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-font: 'CascadiaCode';
+  --italic-font: 'CascadiaCodeItalic';
+  --orange: rgb(255, 120, 50);
+  --light-grey: rgb(30, 30, 31);
+  --dark-grey: rgb(25, 24, 25);
+  --light: whitesmoke;
+  --blue: rgb(81, 185, 255);
+}
+
+body {
+  background-color: var(--light-grey);
+  font-family: var(--main-font);
+  font-size: small;
+  color: var(--light);
+}
+
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+.functionText{
+  color: var(--blue);
+  font-size: small;
+}
+
+h3 {
+  color: var(--light);
+  margin-bottom: 7vh;
+}
+
+.accolade {
+  color: var(--light);
+}
+
+.content {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.invisibleGridContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}

@@ -1,0 +1,37 @@
+.projects {
+    list-style: none;
+}
+
+.projects li {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.project:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.project:hover .projectTitle {
+    color: var(--orange);
+}
+
+@media screen and (max-width: 769px) {
+
+    .imgContainer {
+        display: none;
+    }
+
+}
